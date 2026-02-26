@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-206-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-237-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-84-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -442,6 +442,243 @@ Papers below are ordered by **publication date**:
       <td><strong>Links</strong></td>
     </tr>
     <tr>
+    <td rowspan="2" style="width: 15%;">2026-02-24</td>
+    <td style="width: 55%;"><strong>ARCHITECTING AGENTOS: FROM TOKEN-LEVEL CONTEXT TO EMERGENT SYSTEM-LEVEL INTELLIGENCE</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+    <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+    <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.20934.pdf">
+    <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • This paper explores a framework—AgentOS—that enables large language models (LLMs) to evolve into dynamic autonomous cognitive systems.<br>
+    • By redefining LLMs as a “reasoning kernel,” AgentOS introduces the concept of deep context management to address information dilution in long-context tasks and temporal drift in multi-agent collaboration found in current applications.<br>
+    • The paper provides a detailed exposition of AgentOS’s core components, such as the Cognitive Synchronization Pulse (CSP), semantic slicing theory, and perception alignment mechanisms, and explains how they facilitate the emergence of collective intelligence in multi-agent systems.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-23</td>
+    <td style="width: 55%;"><strong>Agents of Chaos</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+    <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+    <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.20021.pdf">
+    <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • The paper reports on red-teaming tests of autonomous language model agents, highlighting the security and privacy vulnerabilities that agents can introduce in real-world environments.<br>
+    • The study examines 11 cases, revealing various issues and failure modes of agents in handling sensitive information, following instructions, and managing resources.<br>
+    • The text discusses the complexity of responsibility attribution and the shortcomings of existing technical and legal frameworks in ensuring the safety of autonomous systems.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-22</td>
+    <td style="width: 55%;"><strong>Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+    <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+    <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.19320v1.pdf">
+    <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • The paper analyzes agentic memory systems—particularly the state persistence capabilities of large language models (LLMs) during long-term interactions—revealing that the empirical foundations of their design and evaluation remain fragile.<br>
+    • The article categorizes memory structures, including lightweight semantic memory, entity-centric and personalized memory, episodic memory, and reflective memory. Through empirical analysis, it shows that current systems fall short of expectations and identifies a mismatch between evaluation metrics and semantic utility.<br>
+    • The paper also explores Memory-Augmented Generation (MAG) in the context of long-context processing, examining different memory architectures, operations, and management strategies, and emphasizes the need for optimized memory management and improved evaluation methodologies.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-20</td>
+    <td style="width: 55%;"><strong>From Lossy to Verified: A Provenance-Aware Tiered Memory for Agents</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+    <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+    <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.17913v1.pdf">
+    <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • TierMem is a hierarchical memory system designed to improve the efficiency and accuracy of information retrieval, addressing information compression challenges arising from long-term interaction histories.<br>
+    • By constructing a fast summary layer and an immutable raw log layer, the system effectively manages information storage and retrieval, accelerating query response times while reducing costs.<br>
+    • TierMem’s design incorporates intelligent routing optimization, error analysis, and hierarchical recall strategies to balance accuracy and efficiency.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-20</td>
+    <td style="width: 55%;"><strong>Memory-Based Advantage Shaping for LLM-Guided Reinforcement Learning</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+    <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+    <img src="https://img.shields.io/badge/Efficiency-success" alt="Efficiency">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.17931v1.pdf">
+    <img src="https://img.shields.io/badge/AAAI-Paper-black?labelColor=orange" alt="AAAI Paper">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • This study proposes an innovative “memory-based advantage shaping” approach aimed at improving the sample efficiency of reinforcement learning (RL) guided by large language models (LLMs) in sparse or delayed reward environments.<br>
+    • By constructing a memory graph and introducing a utility function, the method effectively integrates external guidance to optimize the learning process of RL models.<br>
+    • Experimental results demonstrate high sample efficiency and strong performance across multiple benchmark environments.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-20</td>
+    <td style="width: 55%;"><strong>MIRA: MEMORY-INTEGRATED REINFORCEMENT LEARNING AGENT WITH LIMITED LLM GUIDANCE</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+    <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+    <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.17930v1.pdf">
+    <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • MIRA (Memory-Integrated Reinforcement Learning Agent) is a novel reinforcement learning agent that integrates guidance from large language models (LLMs) by constructing a structured memory graph, improving learning efficiency and exploration capability in sparse-reward environments.<br>
+    • The core of MIRA lies in combining offline and online LLM guidance, filtering high-confidence outputs, computing utility signals, and optimizing the advantage function to ensure autonomous learning while reducing reliance on real-time LLM queries.<br>
+    • Experimental results show that MIRA outperforms traditional methods in both sample efficiency and convergence across multiple environments, demonstrating its potential in complex tasks.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-17</td>
+    <td style="width: 55%;"><strong>Mnemis: Dual-Route Retrieval on Hierarchical Graphs for Long-Term LLM Memory</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+    <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+    <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15313.pdf">
+    <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • Mnemis is a novel memory framework designed to enhance the organization and retrieval capabilities of large language models (LLMs).<br>
+    • The framework combines two retrieval mechanisms: System 1 similarity search and System 2 global selection. By constructing a base graph and a hierarchical graph, it can handle complex queries more efficiently.<br>
+    • Mnemis performs exceptionally well on long-term memory benchmarks, achieving high scores such as 93.9 and 91.6, and demonstrates significant advantages in entity recognition and information retrieval.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-17</td>
+    <td style="width: 55%;"><strong>ZOMBIE AGENTS: PERSISTENT CONTROL OF SELF-EVOLVING LLM AGENTS VIA SELF-REINFORCING IN-JECTIONS</strong></td>
+    <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+    <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+    <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15654.pdf">
+    <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • The paper introduces the “Zombie Agent” attack model, focusing on self-evolving large language model (LLM) agents.<br>
+    • The model demonstrates how malicious payloads can be injected into an agent’s long-term memory through a black-box two-stage attack framework (infection and trigger), leading to persistent compromise.<br>
+    • The study shows that existing prompt-filtering defenses are insufficient to protect such self-evolving agents and highlights the particular vulnerability of memory architectures.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-17</td>
+    <td style="width: 55%;"><strong>ER-MIA: Black-Box Adversarial Memory Injection Attacks on Long-Term Memory-Augmented Large Language Models</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+    <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+    <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15344.pdf">
+    <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • This paper explores a framework called ER-MIA, which investigates black-box adversarial memory injection attacks (AMIAs) targeting long-term memory–augmented large language models (LLMs).<br>
+    • The ER-MIA framework reveals attack mechanisms that inject malicious text through normal interactions, potentially leading the model to produce incorrect reasoning.<br>
+    • The study designs multiple automated adversarial memory generation strategies and conducts empirical evaluations, demonstrating that current long-term memory systems exhibit significant vulnerabilities when facing such attacks.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-16</td>
+    <td style="width: 55%;"><strong>HyperRAG: Reasoning N-ary Facts over Hypergraphs for Retrieval Augmented Generation</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Hyper%20RAG-purple" alt="Hyper RAG">
+    <img src="https://img.shields.io/badge/Decoupling-red" alt="Decoupling">
+    <img src="https://img.shields.io/badge/Aggregation-success" alt="Aggregation">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.14470v1.pdf">
+    <img src="https://img.shields.io/badge/WWW-Paper-black?labelColor=teal" alt="WWW Paper">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • HyperRAG is an innovative retrieval-augmented generation (RAG) framework that replaces traditional binary knowledge graphs with n-ary hypergraphs to improve the accuracy and efficiency of complex question answering and knowledge retrieval tasks.<br>
+    • Through the new modules HyperRetriever and HyperMemory, the framework enables more precise multi-hop reasoning and enhanced context awareness.<br>
+    • Experimental results show that HyperRAG achieves superior performance across multiple benchmark datasets.
+    </td>
+</tr>
+
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-16</td>
+    <td style="width: 55%;"><strong>PANINI: Continual Learning in Token Space via Structured Memory</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+    <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+    <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15156v1.pdf">
+    <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • This paper provides a detailed introduction to PANINI, a non-parametric continual learning framework designed to enhance continual learning and multi-hop question answering capabilities.<br>
+    • By incorporating structured memory and a Generative Semantic Workspace (GSW), PANINI can efficiently process new information and support reasoning through chains of question answering.<br>
+    • Compared with various baseline models, PANINI demonstrates superior performance across multiple evaluation benchmarks, showing particular robustness in scenarios with missing evidence.
+    </td>
+</tr>
+<tr>
+    <td rowspan="2" style="width: 15%;">2026-02-13</td>
+    <td style="width: 55%;"><strong>Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning</strong></td>
+    <td style="width: 15%;">
+    <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+    <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+    <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+    </td>
+    <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.18493v1.pdf">
+    <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+    </a></td>
+</tr>
+<tr>
+    <td colspan="3">
+    • This paper explores the development of the Unified Memory Agent (UMA) and its application in dynamic long-term state tracking and information retrieval.<br>
+    • By integrating memory operations with question answering, UMAs overcome the challenges faced by traditional large language models (LLMs) when handling long inputs.<br>
+    • UMA leverages reinforcement learning and novel policy optimization algorithms, demonstrating significant performance improvements in dynamic scenarios, with accuracy increasing from 61.38% to 76.46%.
+    </td>
+</tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-02-12</td>
       <td style="width: 55%;"><strong>
       Learning to Forget Attention: Memory Consolidation for Adaptive Compute Reduction</strong></td>
@@ -516,6 +753,25 @@ Papers below are ordered by **publication date**:
         • It employs a two-stage training strategy: first constructing an offline kNN teacher to generate privileged supervision signals, then distilling retrieval-induced distributional corrections into a parametric module via confidence-gated supervision.<br>
         • It enables retrieval-free inference with constant-time complexity, consistently improving forecasting accuracy across benchmarks while maintaining the efficiency of the frozen backbone and avoiding catastrophic forgetting.
       </td>
+    </tr>
+      <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>Understand Then Memory: A Cognitive Gist-Driven RAG Framework with Global Semantic Diffusion</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Cogito%20RAG-purple" alt="Cogito RAG">
+      <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+      <img src="https://img.shields.io/badge/Aggregation-success" alt="Aggregation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15895.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • CogitoRAG is a retrieval-augmented generation (RAG) framework based on cognitive memory mechanisms, designed to enhance large language models’ (LLMs) capabilities in knowledge integration and reasoning.<br>
+        • The framework simulates human cognitive processes and optimizes information retrieval and answer generation through the collaboration of three main modules: query decomposition, entity diffusion, and CogniRank re-ranking.<br>
+        • CogitoRAG achieves strong performance across multiple question-answering benchmarks, particularly outperforming traditional RAG methods on complex reasoning tasks, emphasizing the principle that “understanding is superior to memorization.”
+        </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-02-11</td>
@@ -667,6 +923,24 @@ Papers below are ordered by **publication date**:
         • It utilizes a two-stage optimization strategy to maximize the statistical separability between attacker and user retrieval patterns, generating safe and inconspicuous trap texts through safety-constrained embedding inversion.<br>
         • Based on Wald’s Sequential Probability Ratio Test (SPRT), MemPot achieves near-perfect detection accuracy with zero online inference latency while preserving the agent's core utility and performance.
       </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-06</td>
+      <td style="width: 55%;"><strong>Agentic Unlearning: When LLM Agent Meets Machine Unlearning</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.17692v1.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • A new framework called Synchronized Backflow Unlearning (SBU) is proposed to effectively remove sensitive information from large language models (LLMs) while ensuring the integrity of shared knowledge.<br>
+        • By coordinating the collaboration between parameter paths and memory paths, SBU addresses the limitations of traditional privacy-preserving methods, successfully eliminating residual effects of deleted information and reducing the risk of information recontamination.<br>
+        • Experimental results show that this approach significantly improves privacy protection on medical question-answering benchmarks while maintaining accuracy. It not only outperforms baseline methods in efficiency but also overcomes computational resource constraints.
+        </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-02-05</td>
@@ -3953,6 +4227,44 @@ Papers below are ordered by **publication date**:
       <td><strong>Paper & Summary</strong></td>
       <td><strong>Tags</strong></td>
       <td><strong>Links</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-24</td>
+      <td style="width: 55%;"><strong>Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+      <img src="https://img.shields.io/badge/Parallel%20Process-red" alt="Parallel Process">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.21196.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • UPipe introduced in this paper is a novel context-parallel processing technique that effectively improves memory efficiency for long-sequence training.<br>
+        • By performing fine-grained chunking at the attention-head level, UPipe overcomes the memory bottlenecks of traditional Transformer models when handling long sequences. It supports context lengths of up to 5 million tokens while maintaining competitive training speed.<br>
+        • The design philosophy of UPipe is to process only a subset of attention heads to enhance GPU compute utilization. When training the Llama3-8B model, it achieves up to an 87.5% reduction in memory usage, making it a powerful tool for training large-scale language models.
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-24</td>
+      <td style="width: 55%;"><strong>TOM: A Ternary Read-only Memory Accelerator for LLM-powered Edge Intelligence</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+      <img src="https://img.shields.io/badge/Parallel%20Process-red" alt="Parallel Process">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.20662.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • This paper introduces TOM (Ternary-Oriented Accelerator), a novel hybrid ROM-SRAM accelerator designed to address the memory and bandwidth bottlenecks faced by large language models (LLMs) when deployed on edge devices.<br>
+        • By adopting innovations such as ternary quantization, a sparsity-aware ROM architecture, a distributed processing architecture, and dynamic power management, TOM significantly improves inference speed and energy efficiency.<br>
+        • In real-world evaluations, TOM demonstrates inference throughput of up to 3306 TPS, with energy efficiency far surpassing that of traditional GPUs, highlighting its strong potential for real-time AI applications.
+        </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-02-07</td>

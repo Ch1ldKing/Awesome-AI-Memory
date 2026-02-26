@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
-[![Papers](https://img.shields.io/badge/Papers-206-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
+[![Papers](https://img.shields.io/badge/Papers-237-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
 [![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-84-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
@@ -441,6 +441,233 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>链接</strong></td>
     </tr>
     <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-24</td>
+      <td style="width: 55%;"><strong>ARCHITECTING AGENTOS: FROM TOKEN-LEVEL CONTEXT TO EMERGENT SYSTEM-LEVEL INTELLIGENCE</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.20934.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 该论文探讨了大型语言模型（LLMs）向动态自主认知系统转型的框架——AgentOS。<br>
+        • 通过将LLM重新定义为“推理内核”，AgentOS引入了深度上下文管理的概念，以解决当前应用中长上下文任务的信息稀释和多代理协作的时间漂移问题。<br>
+        • 论文详细阐述了AgentOS的核心组件，如认知同步脉冲（CSP）、语义切片理论与感知对齐机制，及其如何促进多智能体系统的集体智能涌现
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-23</td>
+      <td style="width: 55%;"><strong>Agents of Chaos</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.20021.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 论文报告了对自主语言模型智能体的红队测试，强调了在真实环境中智能体引发的安全和隐私漏洞。<br>
+        • 研究涉及11个案例，揭示了智能体在处理敏感信息、遵循指令及资源管理方面的多种问题与失败模式。<br>
+        • 文本讨论了责任分配的复杂性以及现有技术和法律框架在保障自主系统安全性方面的不足。
+        </td>
+    </tr>
+    <tr>
+    <td rowspan="2" style="width: 15%;">2026-02-22</td>
+      <td style="width: 55%;"><strong>Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.19320v1.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 论文分析了代理记忆系统（Agentic Memory Systems）尤其是大型语言模型（LLM）在长期交互中的状态保持能力，揭示了其设计与评估的实证基础尚显脆弱。<br>
+        • 文章对记忆结构进行了分类，包括轻量语义记忆、实体中心和个性化记忆、情节记忆及反思记忆，并通过实证分析说明当前系统的表现未能达到预期，提出了评估指标与语义效用不匹配的问题。<br>
+        • 本文还探讨了增强记忆系统（MAG）在处理长上下文时的不同记忆架构、操作与管理策略，强调了对记忆管理的优化及评估方法的必要性。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-20</td>
+      <td style="width: 55%;"><strong>From Lossy to Verified: A Provenance-Aware Tiered Memory for Agents</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Long--Term%20Memory-darkgreen" alt="Long-Term Memory">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.17913v1.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • TierMem是一个分层记忆体系，旨在提高信息检索的效率和精准度，以应对长时间交互历史带来的信息压缩问题。<br>
+        • 该系统通过构建快速摘要层和不可变原始日志层，有效管理信息的存储与检索，加快查询响应速度并降低成本。<br>
+        • TierMem的设计包含智能路由优化、错误分析以及分层回忆策略，以平衡准确性和效率。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-20</td>
+      <td style="width: 55%;"><strong>Memory-Based Advantage Shaping for LLM-Guided Reinforcement Learning</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <img src="https://img.shields.io/badge/Memory%20Operations-brightgreen" alt="Memory Operations">
+      <img src="https://img.shields.io/badge/Efficiency-success" alt="Efficiency">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.17931v1.pdf">
+      <img src="https://img.shields.io/badge/AAAI-Paper-black?labelColor=orange" alt="AAAI Paper">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 该研究提出了一种创新的“基于记忆的优势塑造”方法，旨在提升大规模语言模型（LLM）指导下的强化学习（RL）在稀疏或延迟奖励环境中的样本效率。<br>
+        • 通过构建记忆图并引入效用函数，该方法有效整合外部指导，优化RL模型的学习过程。<br>
+        • 实验证明在多个基准环境中展现出较高的样本效率和表现。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-20</td>
+      <td style="width: 55%;"><strong>MIRA: MEMORY-INTEGRATED REINFORCEMENT LEARNING AGENT WITH LIMITED LLM GUIDANCE</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Agentic%20RL%20Optimization-orchid" alt="Agentic RL Optimization">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Management-mediumseagreen" alt="Dynamic Memory Management">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.17930v1.pdf">
+      <img src="https://img.shields.io/badge/ICLR-Paper-black?labelColor=lightgrey" alt="ICLR Paper">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • MIRA（Memory-Integrated Reinforcement Learning Agent）是一种新型的强化学习代理，通过构建结构化的记忆图整合大型语言模型（LLM）的指导，以提高稀疏奖励环境中的学习效率和探索能力。<br>
+        • MIRA的核心在于结合离线和在线LLM指导，筛选高置信度输出，计算效用信号，优化优势函数，确保自主学习并减少对真实LLM查询的依赖。<br>
+        • 实验结果显示，MIRA在多个环境中的样本效率和收敛性均优于传统方法，展示了其在复杂任务下的潜力。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-17</td>
+      <td style="width: 55%;"><strong>Mnemis: Dual-Route Retrieval on Hierarchical Graphs for Long-Term LLM Memory</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Memory%20Retrieval-magenta" alt="Memory Retrieval">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15313.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • Mnemis是一种新型的记忆框架，旨在提高大型语言模型（LLMs）的记忆组织与检索能力。<br>
+        • 该框架结合了两种检索机制：系统1的相似性搜索与系统2的全局选择，通过基础图和层次图的构建，能够更高效地处理复杂查询。<br>
+        • Mnemis在长时间记忆基准测试中表现优异，取得诸如93.9和91.6的高分，并且在实体识别及信息检索方面展现了显著优势。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-17</td>
+      <td style="width: 55%;"><strong>ZOMBIE AGENTS: PERSISTENT CONTROL OF SELF-EVOLVING LLM AGENTS VIA SELF-REINFORCING IN-JECTIONS</strong></td>
+      <td style="width: 15%;"><img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15654.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 论文介绍了“Zombie Agent”攻击模型，专注于自我进化的大型语言模型（LLM）代理。<br>
+        • 该模型展示了如何通过黑盒两阶段攻击框架（感染和触发），对代理的长期记忆进行恶意负载的注入，从而导致持久性妥协。<br>
+        • 研究表明，现有的提示过滤防御措施不足以保护这类自我进化代理，同时强调了记忆架构的特殊脆弱性。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-17</td>
+      <td style="width: 55%;"><strong>ER-MIA: Black-Box Adversarial Memory Injection Attacks on Long-Term Memory-Augmented Large Language Models</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Memory%20Attack-red" alt="Memory Attack">
+      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15344.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 本文探讨了一种名为ER-MIA的框架，研究了针对长期记忆增强的大型语言模型（LLMs）的黑箱对抗性记忆注入攻击（AMIAs）。<br>
+        • ER-MIA框架揭示了通过正常交互注入恶意文本的攻击机制，可能导致模型产生错误推理。<br>
+        • 研究设计了多种自动对抗性记忆生成策略，并进行实证评估，表明当前的长时记忆系统在面对这些攻击时表现出显著的脆弱性。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-16</td>
+      <td style="width: 55%;"><strong>HyperRAG: Reasoning N-ary Facts over Hypergraphs for Retrieval Augmented Generation</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Hyper%20RAG-purple" alt="Hyper RAG">
+      <img src="https://img.shields.io/badge/Decoupling-red" alt="Decoupling">
+      <img src="https://img.shields.io/badge/Aggregation-success" alt="Aggregation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.14470v1.pdf">
+      <img src="https://img.shields.io/badge/WWW-Paper-black?labelColor=teal" alt="WWW Paper">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • HyperRAG是一个创新的检索增强生成（RAG）框架，利用n-元超图取代传统的二元知识图谱，以提升复杂问答和知识检索任务的准确性和效率。<br>
+        • 通过新的模块HyperRetriever和HyperMemory，该框架实现了多跳推理的精准化和上下文意识的增强。<br>
+        • 实验结果显示，HyperRAG表现出在多个基准数据集上的优越性能。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-16</td>
+      <td style="width: 55%;"><strong>PANINI: Continual Learning in Token Space via Structured Memory</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Benchmark-darkred" alt="Benchmark">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15156v1.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 本文详细介绍了PANINI，一个旨在提升持续学习和多跳问答能力的非参数持续学习框架。<br>
+        • 通过引入结构化记忆和生成语义工作空间（GSW），PANINI能够高效处理新信息并通过问答链支持推理。<br>
+        • 与多种基线模型相比，PANINI在多个评估基准上表现优异，尤其在缺失证据情况下显示出可靠性。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-13</td>
+      <td style="width: 55%;"><strong>Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Memory%20Framework-darkslategrey" alt="Memory Framework">
+      <img src="https://img.shields.io/badge/Memory%20Mechanisms-yellowgreen" alt="Memory Mechanisms">
+      <img src="https://img.shields.io/badge/Dynamic%20Memory%20Organization-darkviolet" alt="Dynamic Memory Organization">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.18493v1.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 本文探讨了统一记忆代理（Unified Memory Agent, UMA）的开发及其在动态长时间状态跟踪和信息检索中的应用。<br>
+        • UMAs通过将记忆操作与问答整合在一起，克服了传统大语言模型（LLMs）在处理长输入时遇到的挑战。<br>
+        • UMA利用强化学习和新的策略优化算法，展示了在动态场景下显著的性能提升，准确率从61.38%提高至76.46%。
+        </td>
+    </tr>
+    <tr>
       <td rowspan="2" style="width: 15%;">2026-02-12</td>
       <td style="width: 55%;"><strong>
       Learning to Forget Attention: Memory Consolidation for Adaptive Compute Reduction</strong></td>
@@ -515,6 +742,25 @@ To systematically organize the diverse research and practical resources in the f
         • 首先利用线下 kNN 检索构建包含未来信息的特权监督信号，随后通过置信度门控机制将这种检索诱导的分布修正内化到参数化模块中。<br>
         • 该框架在显著提升点预测和概率预测精度的同时，实现了“零在线检索”部署，保持了与原始模型相当的推理效率且避免了灾难性遗忘。
       </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-11</td>
+      <td style="width: 55%;"><strong>Understand Then Memory: A Cognitive Gist-Driven RAG Framework with Global Semantic Diffusion</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Cogito%20RAG-purple" alt="Cogito RAG">
+      <img src="https://img.shields.io/badge/Retrieval%20Augmentation-mediumvioletred" alt="Retrieval Augmentation">
+      <img src="https://img.shields.io/badge/Aggregation-success" alt="Aggregation">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.15895.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • CogitoRAG是一个基于认知记忆机制的检索增强生成（RAG）框架，旨在提高大型语言模型（LLMs）在知识整合和推理方面的能力。<br>
+        • 该框架模拟人类认知过程，通过三个主要模块的协作（查询分解、实体扩散和CogniRank重排序）来优化信息检索和答案生成。<br>
+        • CogitoRAG在多种问答基准测试中表现优异，特别是在复杂推理任务方面超越了传统RAG方法，强调了“理解优于记忆”的理念。
+        </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-02-11</td>
@@ -666,6 +912,24 @@ To systematically organize the diverse research and practical resources in the f
         • 采用两阶段优化策略，先通过对比学习最大化攻击者与正常用户在检索轨迹上的区分度，再利用反转技术生成对用户无害且隐蔽的干扰文本。<br>
         • 基于序贯概率比检验（SPRT）构建了高效的动态检测机制，在实现高准确率检测的同时保持了零在线推理延迟，且不影响智能体原有的记忆功能。
       </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-06</td>
+      <td style="width: 55%;"><strong>Agentic Unlearning: When LLM Agent Meets Machine Unlearning</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      <img src="https://img.shields.io/badge/Machine%20Forgetting-grey" alt="Machine Forgetting">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.17692v1.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 提出了一种名为“同步回流遗忘”（Synchronized Backflow Unlearning, SBU）的新框架，旨在有效删除大型语言模型（LLM）中的敏感信息，同时确保共享知识的完整性。<br>
+        • 通过结合参数路径和内存路径的协同工作，SBU解决了传统方法在隐私保护中的局限性，成功消除了已删除信息的残余影响，减少了信息再污染的问题。<br>
+        • 实验结果显示，该方法在医疗问答基准测试中显著提高了隐私保护效果，同时保持了准确性，不仅在效率上优于基线方法，还克服了计算资源的限制。
+        </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-02-05</td>
@@ -3948,6 +4212,44 @@ Framework for Experience-Driven Agent Evolution</strong></td>
       <td><strong>论文与摘要</strong></td>
       <td><strong>标签</strong></td>
       <td><strong>链接</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-24</td>
+      <td style="width: 55%;"><strong>Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+      <img src="https://img.shields.io/badge/Parallel%20Process-red" alt="Parallel Process">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.21196.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 本文介绍的UPipe是一种新型上下文并行处理技术，有效提高长序列训练的内存效率。<br>
+        • UPipe通过在注意力头级别进行细粒度分块，克服传统Transformer模型在处理长序列时的内存瓶颈，支持高达500万tokens的上下文长度，同时保持竞争力的训练速度。<br>
+        • UPipe的设计理念是只处理部分头部以增强GPU计算的利用率，且在训练Llama3-8B模型时，实现了内存使用最多减少87.5%，成为训练大规模语言模型的有力工具。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-24</td>
+      <td style="width: 55%;"><strong>TOM: A Ternary Read-only Memory Accelerator for LLM-powered Edge Intelligence</strong></td>
+      <td style="width: 15%;">
+      <img src="https://img.shields.io/badge/System-darkblue" alt="System">
+      <img src="https://img.shields.io/badge/Parallel%20Process-red" alt="Parallel Process">
+      <img src="https://img.shields.io/badge/Model%20Architecture-indigo" alt="Model Architecture">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.20662.pdf">
+      <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+        • 本文介绍了TOM（Ternary-Oriented Accelerator），一种新型的混合ROM-SRAM加速器，旨在解决大型语言模型（LLM）在边缘设备部署时面临的内存和带宽瓶颈。<br>
+        • TOM通过采用三元量化、稀疏感知ROM架构、分布式处理架构和动态功耗管理等创新，显著提升了模型推理的速度和能效。<br>
+        • TOM在实际测试中展现出高达3306 TPS的推理能力，能效大幅优于传统GPU，指出其在实时AI应用中的巨大潜力。
+        </td>
     </tr>
     <tr>
       <td rowspan="2" style="width: 15%;">2026-02-07</td>

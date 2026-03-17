@@ -518,29 +518,66 @@ To systematically organize the diverse research and practical resources in the f
       <td><strong>链接</strong></td>
     </tr>
       <tr>
-        <td rowspan="2" style="width: 15%;">2026-03-12</td>
-        <td style="width: 55%;"><strong>RoboStream: Weaving Spatio-Temporal Reasoning with Memory in Vision-Language Models for Robotics</strong></td>
+        <td rowspan="2" style="width: 15%;">2026-03-11</td>
+        <td style="width: 55%;"><strong>Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io/badge/Segment--Level--Memory-indigo" alt="Segment-Level-Memory">
-          <img src="https://img.shields.io/badge/Multi-turn-indigo" alt="Multi-turn">
-          <img src="https://img.shields.io/badge/Multi-Modal-yellow" alt="Multi-Modal">
+          <img src="https://img.shields.io/badge/safety-red" alt="safety">
+          <img src="https://img.shields.io/badge/Evolution-brightgreen" alt="Evolution">
         </td>
-        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.12939">
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.11768v1">
           <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
         </a></td>
       </tr>
       <tr>
           <td colspan="3">
-              • 现有的流式多模态大模型通常采用“感知与生成交替”的串行模式，这导致文本解码会阻塞视频的持续摄入，并且随着长视频的推进，模型极易遗忘早期的关键信息。为此，本文提出了一种“边看边思考”的全新流式推理框架。<br>
-              • 该框架将视频划分为多个片段，并在系统运行中在线动态生成并维护持久的片段级记忆笔记，以隐式检索的方式支持多轮问答。<br>
-              • 构建了专门的三阶段流式思维链（CoT）数据集（涵盖单轮适应、多轮交互和长程能力训练），并配合片段级的流式因果掩码（Causal mask）以保证严格的时间因果性。
+              • 大模型智能体的记忆系统正从静态检索转向动态自主更新，这虽然提升了智能体的适应性，但也引发了严峻的稳定与安全问题。其中包括语义漂移、固化错误工作流的程序漂移、外部恶意注入的记忆投毒。<br>
+              • 提出稳定与安全治理记忆（SSGM）框架。该框架的核心设计理念是将智能体的“生成式认知策略”与“底层记忆存储介质”彻底解耦。它在两者之间引入了一个主动拦截的治理中间件，使记忆的更新不再是盲目的直接写入，而是必须经过多重网关的审查。<br>
+              • 合并前验证，在写入前进行逻辑一致性检查，拒绝与核心事实相矛盾的更新，防止幻觉被固化
+              。时间与权限过滤，在读取时结合衰减函数过滤过期失效数据，并基于访问控制防止跨用户隐私泄露。可逆的定期对齐，采用“可变活动图+ 不可变情景日志”的双轨存储结构，系统会定期将当前记忆与不可变日志进行对齐与错误回滚，从而在数学上为长期的“语义漂移”设定了严格的误差上限。
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-11</td>
+        <td style="width: 55%;"><strong>Taming OpenClaw: Security Analysis and Mitigation of Autonomous LLM Agent Threats</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/safety-orange" alt="safety">
+          <img src="https://img.shields.io/badge/Openclaw-red" alt="openclaw">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.11619v1">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • 文章针对OpenClaw等自主大语言模型智能体，系统性地分析了其在初始化、输入、推理、决策和执行五个生命周期阶段的安全威胁。<br>
+              • 在OpenClaw上进行了详细的案例研究，证明了这些威胁的破坏力。例如，攻击者可以通过“记忆投毒”将瞬时的恶意输入转化为长期的行为控制；而在决策和执行阶段，模糊的指令可能引发“意图漂移”，使智能体将简单的安全检查任务升级为破坏性的系统防火墙修改和高危命令执行。<br>
+              • 缓解策略包括：初始化阶段的插件验证与签名、输入阶段的语义防火墙隔离、推理阶段的动态记忆完整性校验与状态回滚、决策阶段的意图一致性验证，以及执行阶段的内核级沙箱与最小权限控制。
+          </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="width: 15%;">2026-03-12</td>
+        <td style="width: 55%;"><strong>Empowering Vision-Language-Action Model with
+Memory via Dual-Level Recurrent Queries</strong></td>
+        <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Dual--Level--Recurrent--Memory-indigo" alt="Recurrent-Memory">
+          <img src="https://img.shields.io/badge/Past--Prediction-indigo" alt="Past Observation Prediction">
+          <img src="https://img.shields.io/badge/Multi-Modal-yellow" alt="Multi-Modal">
+        </td>
+        <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.12942">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+        </a></td>
+      </tr>
+      <tr>
+          <td colspan="3">
+              • ReMem-VLA 引入了两套可学习的循环记忆查询：帧级查询逐帧更新以捕捉短期记忆，而块级查询则在更长的时间跨度上更新，用于稳定维持长期记忆。<br>
+              • 增加了一个视觉预测头，引入了过去观察预测作为辅助训练目标，强制模型通过重建历史 RGB 图像来召回视觉细节。针对变长序列循环训练的批处理难题，提出了一种基于槽的流式训练范式，能够在保证时间连续性的同时避免跨任务片段的状态泄露。<br>
+              • 为了克服传统沿时间截断反向传播在长序列优化上的瓶颈，模型创造性地采用了冻结 VLM 加固定指数移动平均的无梯度循环更新路径，使得查询只需学习“提取什么任务相关信息”，而无需学习“如何传递”。
           </td>
       </tr>
       <tr>
         <td rowspan="2" style="width: 15%;">2026-03-11</td>
         <td style="width: 55%;"><strong>Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io/badge/Segment--Level--Memory-indigo" alt="Segment-Level-Memory">
           <img src="https://img.shields.io/badge/Multi-turn-indigo" alt="Multi-turn">
           <img src="https://img.shields.io/badge/Multi-Modal-yellow" alt="Multi-Modal">
         </td>
@@ -560,7 +597,7 @@ To systematically organize the diverse research and practical resources in the f
         <td style="width: 55%;"><strong>MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Multi-turn-indigo" alt="Multi-turn">
-          <<img src="https://img.shields.io/badge/Multi--Agent-orange" alt="Multi-Agent">
+          <<img src="https://img.shields.io/badge/Multi-Agent-orange" alt="Multi-Agent">
           <img src="https://img.shields.io/badge/Context%20Mgmt-blue" alt="Context-Optimization">
         </td>
         <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.09022">
@@ -579,7 +616,7 @@ To systematically organize the diverse research and practical resources in the f
         <td style="width: 55%;"><strong>Collaborative Multi-Agent Optimization for Personalized Memory System</strong></td>
         <td style="width: 15%;">
           <img src="https://img.shields.io/badge/Personalization-indigo" alt="Personalized">
-          <<img src="https://img.shields.io/badge/Multi--Agent-orange" alt="Multi-Agent">
+          <img src="https://img.shields.io/badge/Multi--Agent-orange" alt="Multi-Agent">
           <img src="https://img.shields.io/badge/RL-blueviolet" alt="RL">
         </td>
         <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.12631">
@@ -624,9 +661,9 @@ To systematically organize the diverse research and practical resources in the f
       </tr>
       <tr>
           <td colspan="3">
-              • 指出当前个性化大模型的记忆检索要么将历史记录全量输入导致上下文过载，要么仅依赖单次相似度检索而导致理解过浅。为此，研究团队借鉴人类记忆的“回想-熟悉度双过程理论”，提出了一种名为 RF-Mem 的自适应记忆检索框架。<br>
-              • RF-Mem 会通过探测检索的平均相似度得分和熵值来衡量“熟悉度”。当熟悉度高且不确定性低时，系统采用快速的“熟悉度路径”，直接返回单次 top-K 结果；当熟悉度低且不确定性高时，则激活深度的“回想路径”。<br>
-              • 在触发“回想路径”时，系统会对候选记忆进行聚类，并使用 α-mix 策略将聚类质心与原始查询进行混合更新。
+              • 结构化的自适应记忆抽取：设计了一个记忆抽取智能体，能够通过单次交互根据语义相关性自适应地切分长上下文，并提取为包含摘要、关键词、事件等丰富信息的结构化记忆笔记。<br>
+              • 工具驱动的自主记忆探索：构建了支持字符串键值匹配与向量相似度查询的多索引数据库。检索智能体可自主选择查询工具，在记忆空间中进行多轮迭代探索。<br>
+              • 长程推理能力与Token效率双提升：通过灵活精准的工具调用及缓存机制过滤冗余上下文，该框架在复杂长程问题上显著超越基线，同时保持了较低的Token消耗。
           </td>
       </tr>
       <tr>
@@ -652,7 +689,7 @@ To systematically organize the diverse research and practical resources in the f
         <td rowspan="2" style="width: 15%;">2026-03-10</td>
         <td style="width: 55%;"><strong>A Control-Theoretic Foundation for Agentic Systems</strong></td>
         <td style="width: 15%;">
-          <<img src="https://img.shields.io/badge/Control--Theory-blue" alt="Control-Theory">
+          <img src="https://img.shields.io/badge/Control--Theory-blue" alt="Control-Theory">
           <img src="https://img.shields.io/badge/Agentic--orange" alt="Agentic-Systems">
           <img src="https://img.shields.io/badge/feedback--pink" alt="feedback Control">
         </td>
@@ -671,7 +708,7 @@ To systematically organize the diverse research and practical resources in the f
         <td rowspan="2" style="width: 15%;">2026-03-11</td>
         <td style="width: 55%;"><strong>When OpenClaw Meets Hospital: Toward an Agentic Operating System for Dynamic Clinical Workflows</strong></td>
         <td style="width: 15%;">
-          <<img src="https://img.shields.io/badge/Multi--Agent-orange" alt="Multi-Agent">
+          <img src="https://img.shields.io/badge/Multi--Agent-orange" alt="Multi-Agent">
           <img src="https://img.shields.io/badge/openclaw--red" alt="openclaw">
           <img src="https://img.shields.io/badge/healthcare--green" alt="openclaw">
         </td>
@@ -690,8 +727,8 @@ To systematically organize the diverse research and practical resources in the f
         <td rowspan="2" style="width: 15%;">2026-03-10</td>
         <td style="width: 55%;"><strong>Trajectory-Informed Memory Generation for Self-Improving Agent Systems</strong></td>
         <td style="width: 15%;">
-          <img src="https://img.shields.io/badge/Adaptive-orange" alt="Trajectory Memory Generation">
-          <img src="https://img.shields.io/badge/Architecture-brightgreen" alt="Self-Improving">
+          <img src="https://img.shields.io/badge/Trajectory%20Memory-orange" alt="Trajectory Memory Generation">
+          <img src="https://img.shields.io/badge/Self--Improving-brightgreen" alt="Self-Improving">
         </td>
         <td style="width: 15%;"><a href="https://arxiv.org/pdf/2603.10600">
           <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">

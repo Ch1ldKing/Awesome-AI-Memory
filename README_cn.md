@@ -12,7 +12,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/badge/PRs-Welcome-red)
 [![Papers](https://img.shields.io/badge/Papers-301-blue.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/papers)
-[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-89-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
+[![Open Source Projects](https://img.shields.io/badge/Open%20Source%20Projects-90-green.svg)](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/projects)
 
 
 ## 👋 简介
@@ -1552,6 +1552,24 @@ Memory via Dual-Level Recurrent Queries</strong></td>
             • 提出 FluxMem 框架，赋予 LLM 代理根据交互特征自适应选择不同记忆结构的能力。<br>
             • 引入三层记忆层次结构，并利用基于 Beta 混合模型的概率门来增强记忆融合的鲁棒性。<br>
             • 在处理异构交互模式时表现卓越，于多个长时间基准上实现了性能跃升。
+        </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="width: 15%;">2026-02-14</td>
+      <td style="width: 55%;"><strong>Hippocampus: An Efficient and Scalable Memory Module for Agentic AI</strong></td>
+      <td style="width: 15%;">
+          <img src="https://img.shields.io/badge/Compressed%20Memory-4c78a8" alt="Compressed Memory">
+          <img src="https://img.shields.io/badge/Dynamic%20Wavelet%20Matrix-f58518" alt="Dynamic Wavelet Matrix">
+      </td>
+      <td style="width: 15%;"><a href="https://arxiv.org/pdf/2602.13594.pdf">
+          <img src="https://img.shields.io/badge/arXiv-Paper-%23D2691E?logo=arxiv" alt="Paper Badge">
+      </a></td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            • 提出了 Hippocampus，这是一种高效且可扩展的面向智能体AI的记忆模块，用紧凑的二进制签名和无损的token-ID流替代密集向量或重图结构的检索方式。<br>
+            • 引入了动态小波矩阵（Dynamic Wavelet Matrix, DWM），用于对语义签名和可重构内容进行联合压缩与索引，从而能够直接在压缩域中实现超高速搜索。<br>
+            • 在 LoCoMo 和 LongMemEval 上的实验表明，在保持准确性的同时，端到端检索延迟最高降低31倍，每次查询所需的token数量最多减少14倍。
         </td>
     </tr>
     <tr>
@@ -6020,6 +6038,7 @@ Framework for Experience-Driven Agent Evolution</strong></td>
 | OMEGA  | 2025-12-17 | ![GitHub Repo stars](https://img.shields.io/github/stars/omega-memory/omega-memory?style=social) | https://github.com/omega-memory/omega-memory<br>https://omegamax.co/ |
 | Autohand Code CLI | 2025-12-20 | ![GitHub Repo stars](https://img.shields.io/github/stars/autohandai/code-cli?style=social) | https://github.com/autohandai/code-cli<br>https://www.autohand.ai/code/ |
 | Hindsight   | 2025-12-22 | ![GitHub Repo stars](https://img.shields.io/github/stars/vectorize-io/hindsight?style=social) | https://github.com/vectorize-io/hindsight<br>https://hindsight.vectorize.io/ |
+| MAGMA       | 2026-01-06 | ![GitHub Repo stars](https://img.shields.io/github/stars/FredJiang0324/MAMGA?style=social) | https://github.com/FredJiang0324/MAMGA<br>No official website |
 | widemem-ai | 2026-02-23 | ![GitHub Repo stars](https://img.shields.io/github/stars/remete618/widemem-ai?style=social) | https://github.com/remete618/widemem-ai<br>https://widemem.ai |
 | Riverse | 2026-02-25 | ![GitHub Repo stars](https://img.shields.io/github/stars/wangjiake/JKRiver?style=social) | https://github.com/wangjiake/JKRiver<br>https://wangjiake.github.io/riverse-docs/ |
 | SuperLocalMemory | 2026-03-01 | ![GitHub Repo stars](https://img.shields.io/github/stars/qualixar/superlocalmemory?style=social) | https://github.com/qualixar/superlocalmemory<br>https://superlocalmemory.com/ |
